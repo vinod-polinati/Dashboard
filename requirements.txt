@@ -1,0 +1,5 @@
+streamlit
+streamlit-option-menu
+requests
+streamlit-lottie
+Pillow
