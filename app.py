@@ -16,13 +16,13 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("/Users/pedda/Potfolio/style/style.css")
+local_css("style/style.css")
 
 lodu_coder = load_lottieurl('https://lottie.host/b832b791-3519-4874-8773-9f9c507ca77a/SUGUSvgL35.json')
 lodu_contact = load_lottieurl("https://lottie.host/32340245-31b0-4a2b-891d-f535bb022a52/3axH3jpeXW.json")
 
-image = Image.open("/Users/pedda/Potfolio/Images/face.webp")
-image1 = Image.open("/Users/pedda/Potfolio/Images/lolniga.png")
+image = Image.open("Images/face.webp")
+image1 = Image.open("Images/lolniga.png")
 
 # Define your skills here
 skills_list = [
