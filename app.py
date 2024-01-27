@@ -183,7 +183,7 @@ elif selected == 'Contact':
     st.write('##')
     st.write('##')
     contact_form = """
-    <form action="https://formsubmit.co/vinodpolinati@gmail.com" method="POST">
+    <form action="https://formsubmit.co/86ad5b91559924c3b8a71d29d53bb2ad" method="POST">
         <input type='hidden' name='captcha' value='false'>
          <input type="text" name="name" required >
          <input type="email" name="email" required>
