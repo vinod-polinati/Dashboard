@@ -172,7 +172,7 @@ elif selected == "Projects":
             st.subheader("VerifEye")
             st.write("""
             This is a machine learning model for detecting fake news by submitting either an article text or by pasting the URL of any news article.
-            The UI is exclusively made using streamlit
+            The UI is exclusively made using streamlit framework
             """)
             st.markdown('[Visit Git Repo](https://github.com/vinod-polinati/VerifEye)')
 elif selected == 'Skills':
