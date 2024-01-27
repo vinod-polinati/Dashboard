@@ -43,6 +43,7 @@ skills_list = [
     "C++",
     "R",
     "MySQL",
+    "Tableau",
 ]
 skills_list = [
     "Python",
