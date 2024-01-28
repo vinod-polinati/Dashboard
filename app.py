@@ -110,7 +110,7 @@ st.write("##")
 st.subheader("Hey Guys :wave:")
 st.title("Vinod Polinati")
 st.write("""
-A Junior Year Undergrad at Vignan's IIT. I'm interested in working as a Machine Learning, Deep Learning, Data Science Intern currently cooking a few Machine Learning Projects
+A Junior Year Undergrad at Vignan's IIT. I'm interested in working as a Machine Learning Intern currently cooking a few Machine Learning Projects
 """)
 
 st.write("----")
