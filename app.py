@@ -118,7 +118,7 @@ st.write("----")
 with st.container():
     selected = option_menu(
         menu_title=None,
-        options=['About', 'Projects', 'Skills', 'Contact'],
+        options=['About', 'Projects', 'Skills'],
         icons=['person', 'code-slash', 'graph-up', 'chat-left-text-fill'],
         orientation="horizontal"
     )
@@ -178,21 +178,3 @@ elif selected == "Projects":
             st.markdown('[Visit Git Repo](https://github.com/vinod-polinati/VerifEye)')
 elif selected == 'Skills':
     display_skills()
-elif selected == 'Contact':
-    st.header("Get in Touch")
-    st.write('##')
-    st.write('##')
-    contact_form = """
-    <form action="https://formsubmit.co/86ad5b91559924c3b8a71d29d53bb2ad" method="POST">
-        <input type='hidden' name='captcha' value='false'>
-         <input type="text" name="name" required >
-         <input type="email" name="email" required>
-         <text area='message' placeholder="Message Required" </textarea>
-         <button type="submit">Send</button>
-    </form>
-    """
-    left_col, right_col = st.columns((2, 1))
-    with left_col:
-        st.markdown(contact_form, unsafe_allow_html=True)
-    with right_col:
-        st_lottie(lodu_contact, height=300)
