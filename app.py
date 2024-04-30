@@ -162,9 +162,9 @@ elif selected == "Projects":
         with col5:
             st.image(image)
         with col6:
-            st.subheader("FacialiZe")
+            st.subheader("Argus")
             st.write("""
-            This is a Python-based Face Recognition Attendance System that uses machine learning to identify students' faces and records their attendance automatically.
+            A Deeplearning Model which is used for DeepFake Image & Video Detection.
             """)
             st.markdown("[Visit Git Repo](https://github.com/vinod-polinati/FacialiZe)")
         with col7:
