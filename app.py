@@ -110,7 +110,7 @@ st.write("##")
 st.subheader("Hey Guys :wave:")
 st.title("Vinod Polinati")
 st.write("""
-A Junior Year Undergrad at Vignan's IIT. I'm interested in working as a Machine Learning Intern currently cooking a few Machine Learning Projects
+A Junior Year Undergrad at Vignan's IIT. A Junior Year undergrad majoring in ML & Data Science
 """)
 
 st.write("----")
@@ -162,19 +162,18 @@ elif selected == "Projects":
         with col5:
             st.image(image)
         with col6:
+            st.subheader("BinBox")
+            st.write("""
+            Shipping warehouses face the "box problem": identifying the most cost-effective set of boxes to minimize packaging material usage for a vast array of orders, each containing items with varying dimensions and orientations. This project tackles this challenge by harnessing the power of deep learning.
+            """)
+            st.markdown("[Visit Git Repo](https://github.com/vinod-polinati/The-BOX---SUS-HACKS-24.git)")
+        with col7:
+            st.image(image1)
+        with col8:
             st.subheader("Argus")
             st.write("""
             A Deeplearning Model which is used for DeepFake Image & Video Detection.
             """)
-            st.markdown("[Visit Git Repo](https://github.com/vinod-polinati/FacialiZe)")
-        with col7:
-            st.image(image1)
-        with col8:
-            st.subheader("VerifEye")
-            st.write("""
-            This is a machine learning model for detecting fake news by submitting either an article text or by pasting the URL of any news article.
-            The UI is exclusively made using streamlit framework
-            """)
-            st.markdown('[Visit Git Repo](https://github.com/vinod-polinati/VerifEye)')
+            st.markdown("[Visit Git Repo](https://github.com/Rahaman101/Argus.git)")
 elif selected == 'Skills':
     display_skills()
